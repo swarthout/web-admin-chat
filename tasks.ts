@@ -28,13 +28,3 @@ Meteor.methods({
   }
 });
 
-if (Meteor.isServer) {
-  Meteor.publish('tasks.public', function() {
-    return Tasks.find({
-      $or: [
-        { private: { $ne: true } },
-        { owner: this.userId }
-      ]
-    });
-  });
-}
