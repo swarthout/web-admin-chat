@@ -1,6 +1,6 @@
 import {Component, provide, enableProdMode} from 'angular2/core';
 
-import {Tasks} from '../tasks';
+import {Tasks} from '../lib/tasks/tasks';
 
 import {TaskList} from './components/task-list';
 

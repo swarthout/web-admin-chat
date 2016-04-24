@@ -4,7 +4,7 @@ import {TaskView} from './task';
 
 import {MeteorComponent} from 'angular2-meteor';
 
-import {Tasks} from '../../tasks';
+import {Tasks} from '../../lib/tasks/tasks';
 
 @Component({
   selector: 'task-list',
