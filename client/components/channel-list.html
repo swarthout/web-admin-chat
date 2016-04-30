@@ -1,6 +1,6 @@
 <div *ngIf="!isLoading">
-  <ul *ngFor="#task of tasks">
-    <task [data]="task"></task>
+  <ul class="collection" *ngFor="#channel of channels">
+    <channel [data]="channel"></channel>
   </ul>
 </div>
 <div *ngIf="isLoading" class="loader">

@@ -2,7 +2,9 @@
   <library name="meteor-packages-auto-import-browser" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/js/materialize.js" />
         <item url="file://$USER_HOME$/.meteor/packages/promise/0.6.7/web.browser/client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/css/materialize.css" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-runtime/0.1.8/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
@@ -152,7 +154,9 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/js/materialize.js" />
       <root url="file://$USER_HOME$/.meteor/packages/promise/0.6.7/web.browser/client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/css/materialize.css" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-runtime/0.1.8/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />

@@ -1,16 +1,24 @@
-<div class="container">
-  <header>
-    <h1>My Todo List ({{todoCount}})</h1>
+<div>
 
-    <label class="hide-completed">
-      <input type="checkbox" [(ngModel)]="hideCompleted"/>
-        Hide Completed Tasks
-    </label>
+    <nav class="teal">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo logo">Web Admin Chat</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
 
-    <form class="new-task" (submit)="addTask(newTask); newTask = null;">
-      <input [(ngModel)]="newTask" type="text" placeholder="Type to add new tasks" />
-    </form>
-  </header>
+        <div class="col s3 grey lighten-2 sidebar">
+            <!-- Grey navigation panel -->
+            <channel-list></channel-list>
+        </div>
 
-  <task-list [hideCompleted]="hideCompleted"></task-list>
+        <div class="col s9 teal lighten-5 content">
+            <!-- Teal page content  -->
+        </div>
+
+    </div>
+
 </div>

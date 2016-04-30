@@ -1,1 +1,0 @@
-export let Tasks = new Mongo.Collection<Task>('tasks');

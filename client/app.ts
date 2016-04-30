@@ -1,32 +1,21 @@
-import {Component, provide, enableProdMode} from 'angular2/core';
+import {Component} from 'angular2/core';
 
-import {Tasks} from '../lib/tasks/tasks';
+import {Channels} from '../api/channels/channels.ts';
 
-import {TaskList} from './components/task-list';
+import {TaskList} from './components/channel-list';
 
-import {bootstrap} from 'angular2-meteor-auto-bootstrap';
-
-enableProdMode();
 
 @Component({
   selector: 'app',
   templateUrl: 'client/app.html',
   directives: [TaskList]
 })
-export class Todos {
-  addTask(text) {
-    Tasks.insert({
-      text: text,
-      checked: false,
+export class AppComponent {
+  addChannel(text) {
+    Channels.insert({
+      name: text,
       private: false
     });
   }
-
-  get todoCount() {
-    return Tasks.find({
-      checked: false
-    }).count();
-  };
 }
 
-bootstrap(Todos);
