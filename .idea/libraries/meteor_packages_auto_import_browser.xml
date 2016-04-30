@@ -120,7 +120,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/file-mixin.js" />
         <item url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/session/1.1.5/web.browser/session.js" />
         <item url="file://$USER_HOME$/.meteor/packages/barbatus_ng2-minifier-js/0.0.1/web.browser/minifier.js" />
         <item url="file://$USER_HOME$/.meteor/packages/retry/1.0.7/web.browser/retry.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.2.10/web.browser/runtime.js" />
@@ -139,11 +138,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/buffer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/css.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.7/web.browser/migration.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/client.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.7/web.browser/reactive-dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/stubs.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.7/web.browser/reactive-dict-tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/process.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/install-packages.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.9/web.browser/random.js" />
@@ -272,7 +268,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/file-mixin.js" />
       <root url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/session/1.1.5/web.browser/session.js" />
       <root url="file://$USER_HOME$/.meteor/packages/barbatus_ng2-minifier-js/0.0.1/web.browser/minifier.js" />
       <root url="file://$USER_HOME$/.meteor/packages/retry/1.0.7/web.browser/retry.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.2.10/web.browser/runtime.js" />
@@ -291,11 +286,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/buffer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/css.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.7/web.browser/migration.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/client.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.7/web.browser/reactive-dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/stubs.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.7/web.browser/reactive-dict-tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/process.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.6.1/web.browser/install-packages.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.9/web.browser/random.js" />
