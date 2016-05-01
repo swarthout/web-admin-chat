@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0d280f-8734-44df-a659-a76d0e376b45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/messages/messages.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/messages/methods.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/messages/server/publications.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web-admin-chat.iml" afterPath="$PROJECT_DIR$/.idea/web-admin-chat.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/channels/channels.ts" afterPath="$PROJECT_DIR$/api/channels/channels.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/channels/methods.ts" afterPath="$PROJECT_DIR$/api/channels/methods.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channel-detail.ts" afterPath="$PROJECT_DIR$/client/components/channel-detail.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channel-list.ts" afterPath="$PROJECT_DIR$/client/components/channel-list.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startup/server/fixtures.ts" afterPath="$PROJECT_DIR$/startup/server/fixtures.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/browser.d.ts" afterPath="$PROJECT_DIR$/typings/browser.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/main.d.ts" afterPath="$PROJECT_DIR$/typings/main.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/messages/methods.ts" afterPath="$PROJECT_DIR$/api/messages/methods.ts" />
     </list>
     <ignored path="web-admin-chat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="methods.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="methods.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/messages/methods.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="15">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -117,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/messages/messages.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -186,8 +174,8 @@
         <option value="$PROJECT_DIR$/api/channels/channels.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/api/messages/messages.ts" />
-        <option value="$PROJECT_DIR$/api/messages/methods.ts" />
         <option value="$PROJECT_DIR$/api/messages/server/publications.ts" />
+        <option value="$PROJECT_DIR$/api/messages/methods.ts" />
       </list>
     </option>
   </component>
@@ -450,12 +438,12 @@
       <workItem from="1461435620295" duration="2943000" />
       <workItem from="1462037177485" duration="5159000" />
       <workItem from="1462046605425" duration="4319000" />
-      <workItem from="1462060245207" duration="1186000" />
+      <workItem from="1462060245207" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19131000" />
+    <option name="totallyTimeSpent" value="19229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1872" height="1057" extended-state="6" />
@@ -697,18 +685,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/messages/methods.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/messages/messages.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/messages/methods.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
