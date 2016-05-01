@@ -2,7 +2,7 @@ export interface MessageInterface {
     _id?: string
     content: string,
     timestamp: any,
-    authorId: string,
+    authorId?: string,
     channelId: string
 }
 

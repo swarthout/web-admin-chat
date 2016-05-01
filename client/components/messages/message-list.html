@@ -1,6 +1,6 @@
 <div *ngIf="!isLoading">
-  <ul class="collection" *ngFor="#channel of channels">
-    <channel [data]="channel"></channel>
+  <ul class="collection" *ngFor="let message of messages">
+    <message [data]="message"></message>
   </ul>
 </div>
 <div *ngIf="isLoading" class="loader">

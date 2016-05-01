@@ -1,6 +1,4 @@
 import {Messages} from "../messages";
-Meteor.publish('messages.channel', function(channel) {
-    return Messages.find({
-        channelId: channel
-    });
+Meteor.publish('messages.channel', function(channelId) {
+    return Messages.find({channelId: channelId},{sort: {timestamp: -1}});
 });

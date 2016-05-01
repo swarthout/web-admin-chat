@@ -21,3 +21,7 @@ barbatus:angular2-runtime
 materialize:materialize
 fourseven:scss
 reactive-var
+service-configuration
+accounts-github
+http
+accounts-base

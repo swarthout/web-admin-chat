@@ -1,0 +1,9 @@
+<form class="new-message row" (submit)="addMessage(content); content = null;">
+    <div class="valign-wrapper">
+        <input class="col s9 valign" [(ngModel)]="content" type="text" placeholder="Type to add a new message" />
+        <button class="col s2 offset-s1 valign btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </div>
+
+</form>

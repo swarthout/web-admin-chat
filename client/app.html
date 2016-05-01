@@ -1,10 +1,11 @@
 <div>
-
     <nav class="teal">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo logo">Web Admin Chat</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Sign In</a></li>
+
+                <li *ngIf="!user"><a href="#!" (click)="signInGithub()">Sign in with Github</a></li>
+                <li *ngIf="user"><a href="#!" (click)="logOut()">Log out</a></li>
             </ul>
         </div>
     </nav>
@@ -12,11 +13,14 @@
 
         <div class="col s3 grey lighten-2 sidebar">
             <!-- Grey navigation panel -->
-            <channel-list></channel-list>
+            <channel-form></channel-form>
+            <channel-list (selected)="setSelected($event)"></channel-list>
         </div>
 
         <div class="col s9 teal lighten-5 content">
             <!-- Teal page content  -->
+            <message-form [channel]="selectedChannel"></message-form>
+            <message-list [channel]="selectedChannel"></message-list>
         </div>
 
     </div>
