@@ -1,7 +1,7 @@
-import {IChannel, Channels} from './channels';
+import {ChannelInterface, Channels} from './channels';
 Meteor.methods({
     'channels.addChannel': function(text: string) {
-        let channel: IChannel = <IChannel>{name: text, private: false};
+        let channel: ChannelInterface = <ChannelInterface>{name: text, private: false};
         Channels.insert(channel);
     },
 

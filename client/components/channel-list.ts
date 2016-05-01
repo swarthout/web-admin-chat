@@ -4,7 +4,7 @@ import {ChannelDetail} from './channel-detail';
 
 import {MeteorComponent} from 'angular2-meteor';
 
-import {IChannel, Channels} from '../../api/channels/channels';
+import {ChannelInterface, Channels} from '../../api/channels/channels';
 
 @Component({
   selector: 'channel-list',
@@ -13,7 +13,7 @@ import {IChannel, Channels} from '../../api/channels/channels';
 })
 export class TaskList extends MeteorComponent{
   //noinspection JSAnnotator
-    channels: Mongo.Cursor<IChannel>;
+    channels: Mongo.Cursor<ChannelInterface>;
     isLoading: boolean;
 
   constructor() {
