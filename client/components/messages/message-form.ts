@@ -4,7 +4,7 @@ import {MeteorComponent} from 'angular2-meteor';
 
 @Component({
     selector: 'message-form',
-    templateUrl: './client/components/messages/message-form.html'
+    templateUrl: 'client/components/messages/message-form.html'
 })
 export class MessageForm extends MeteorComponent {
     @Input('channel') channel: string;

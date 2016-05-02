@@ -2,5 +2,5 @@
     <img src="{{message.authorId | avatarUrl}}" alt="" class="circle">
     <span class="title">{{message.authorId | displayName}}</span>
     <p>{{message.content}}</p>
-    <a href="#" (click)="deleteMessage()" class="secondary-content"><i class="material-icons">delete</i></a>
+    <a *ngIf="isOwner" href="#" (click)="deleteMessage()" class="secondary-content"><i class="material-icons">delete</i></a>
 </li>

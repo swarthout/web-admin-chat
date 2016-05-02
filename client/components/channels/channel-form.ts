@@ -4,7 +4,7 @@ import {MeteorComponent} from 'angular2-meteor';
 
 @Component({
     selector: 'channel-form',
-    templateUrl: './client/components/channels/channel-form.html'
+    templateUrl: 'client/components/channels/channel-form.html'
 })
 export class ChannelForm extends MeteorComponent {
 

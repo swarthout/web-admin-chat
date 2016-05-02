@@ -12,6 +12,9 @@ Meteor.methods({
     },
 
     'messages.deleteMessage': function (messageId:string) {
-        Messages.remove(messageId);
+        let message: MessageInterface = Messages.findOne(messageId);
+        if (message.authorId === this.userId){
+            Messages.remove(messageId);
+        }
     }
 });
