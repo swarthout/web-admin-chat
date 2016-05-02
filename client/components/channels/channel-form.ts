@@ -9,9 +9,11 @@ import {MeteorComponent} from 'angular2-meteor';
 export class ChannelForm extends MeteorComponent {
 
     addChannel(channelName){
-        Channels.insert(<ChannelInterface> {
-            name: channelName,
-            private: false
-        })
+        if (Meteor.userId()){
+            Channels.insert(<ChannelInterface> {
+                name: channelName,
+                private: false
+            })
+        }
     }
 }

@@ -1,4 +1,5 @@
 import {ChannelInterface, Channels} from './channels';
+import {Messages} from '../messages/messages';
 Meteor.methods({
     'channels.addChannel': function(text: string) {
         let channel: ChannelInterface = <ChannelInterface>{name: text, private: false};
@@ -7,6 +8,7 @@ Meteor.methods({
 
     'channels.deleteChannel': function(channelId: string) {
         Channels.remove(channelId);
+        Messages.remove({channelId: channelId});
     },
 
     'channels.setPrivate': function(channelId: string, setToPrivate: boolean) {

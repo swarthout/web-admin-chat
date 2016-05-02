@@ -8,6 +8,7 @@ import {MeteorComponent} from "angular2-meteor";
 })
 export class ChannelDetail extends MeteorComponent {
     @Input('data') channel:ChannelInterface;
+    @Input('selectedChannel') selectedChannel: string;
     @Output() selected:EventEmitter<string> = new EventEmitter();
 
     setAccess() {
@@ -22,5 +23,8 @@ export class ChannelDetail extends MeteorComponent {
     setChannel() {
         // console.log(`clicked channel: ${this.channel._id}`);
         this.selected.emit(this.channel._id);
+    }
+    get isSelected(){
+        return this.channel._id === this.selectedChannel;
     }
 }

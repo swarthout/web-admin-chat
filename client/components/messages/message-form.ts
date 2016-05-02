@@ -9,12 +9,14 @@ import {MeteorComponent} from 'angular2-meteor';
 export class MessageForm extends MeteorComponent {
     @Input('channel') channel: string;
     addMessage(content){
-        console.log(`attempting to insert ${content} to channel ${this.channel}`);
-        Messages.insert(<MessageInterface> {
-            content: content,
-            timestamp: new Date(),
-            channelId: this.channel,
-            authorId: Meteor.userId()
-        })
+        if (this.channel && Meteor.userId()){
+            Messages.insert(<MessageInterface> {
+                content: content,
+                timestamp: new Date(),
+                channelId: this.channel,
+                authorId: Meteor.userId()
+            })
+        }
+
     }
 }

@@ -15,6 +15,7 @@ export class ChannelList extends MeteorComponent{
   //noinspection JSAnnotator
     channels: Mongo.Cursor<ChannelInterface>;
     @Output() selected: EventEmitter<string> = new EventEmitter();
+    selectedChannel;
     isLoading: boolean;
 
   constructor() {
@@ -27,6 +28,7 @@ export class ChannelList extends MeteorComponent{
   }
   setSelected(channelName: string){
     // console.log(`current channel in channel list: ${channelName}`);
+    this.selectedChannel=channelName;
     this.selected.emit(channelName);
   }
 }

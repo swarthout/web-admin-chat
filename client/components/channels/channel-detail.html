@@ -1,5 +1,5 @@
 <li class="collection-item avatar" (click)="setChannel()">
-    <i class="material-icons circle teal">chat_bubble_outline</i>
+    <i class="material-icons circle" [class.teal]="!isSelected" [class.pink]="isSelected">chat_bubble_outline</i>
     <span class="title">{{channel.name}}</span>
     <a href="#" (click)="deleteChannel()" class="secondary-content"><i class="material-icons">delete</i></a>
 </li>

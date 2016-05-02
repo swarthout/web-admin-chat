@@ -1,6 +1,6 @@
 <div *ngIf="!isLoading">
   <ul class="collection" *ngFor="let channel of channels">
-    <channel [data]="channel" (selected)="setSelected($event)"></channel>
+    <channel [data]="channel" (selected)="setSelected($event)" [selectedChannel]="selectedChannel" ></channel>
   </ul>
 </div>
 <div *ngIf="isLoading" class="loader">
