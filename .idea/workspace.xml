@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb0d280f-8734-44df-a659-a76d0e376b45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/channels/server/publications.ts" afterPath="$PROJECT_DIR$/api/channels/server/publications.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/messages/methods.ts" afterPath="$PROJECT_DIR$/api/messages/methods.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.html" afterPath="$PROJECT_DIR$/client/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channels/channel-detail.html" afterPath="$PROJECT_DIR$/client/components/channels/channel-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channels/channel-detail.ts" afterPath="$PROJECT_DIR$/client/components/channels/channel-detail.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channels/channel-form.html" afterPath="$PROJECT_DIR$/client/components/channels/channel-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channels/channel-form.ts" afterPath="$PROJECT_DIR$/client/components/channels/channel-form.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/channels/channel-list.ts" afterPath="$PROJECT_DIR$/client/components/channels/channel-list.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/messages/message-detail.html" afterPath="$PROJECT_DIR$/client/components/messages/message-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/messages/message-detail.ts" afterPath="$PROJECT_DIR$/client/components/messages/message-detail.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/messages/message-form.html" afterPath="$PROJECT_DIR$/client/components/messages/message-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/messages/message-form.ts" afterPath="$PROJECT_DIR$/client/components/messages/message-form.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/messages/message-list.ts" afterPath="$PROJECT_DIR$/client/components/messages/message-list.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.scss" afterPath="$PROJECT_DIR$/client/main.scss" />
-    </list>
+    <list default="true" id="eb0d280f-8734-44df-a659-a76d0e376b45" name="Default" comment="" />
     <ignored path="web-admin-chat.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,8 +98,8 @@
       <file leaf-file-name="message-form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/components/messages/message-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+            <state relative-caret-position="120">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -487,12 +466,12 @@
       <workItem from="1462037177485" duration="5159000" />
       <workItem from="1462046605425" duration="4319000" />
       <workItem from="1462060245207" duration="3459000" />
-      <workItem from="1462118763107" duration="17283000" />
+      <workItem from="1462118763107" duration="17381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38687000" />
+    <option name="totallyTimeSpent" value="38785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1873" height="1057" extended-state="6" />
@@ -852,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/components/messages/message-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
